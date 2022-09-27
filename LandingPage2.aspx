@@ -41,13 +41,39 @@
                         Date of Birth: <asp:Label ID="lblDob" runat="server" Text=""></asp:Label>
                         </div>
                         <div class="form-group m-4">
-                        Profile Image: <asp:Image ID="imgprofile" runat="server" Height="225px" Width="231px" />
+                        Profile Image: <asp:Image ID="imgprofile" runat="server" Height="287px" Width="356px" />
                         </div>
-                        <asp:Button Text="Update Profile" CssClass="btn btn-primary" Height="50px" Width="200px" runat="server" id="updateProfile" OnClick="updateProfile_Click" />
                         
                     </div>
+            
+                     <div class="col-lg-5 px-lg-4" style="text-align:right">
+                        <h2 class="mb-4">Profile Update!</h2>
+                        <div class="container">
+                            <div class="form-group m-4">
+                                Email:<asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                            </div>
+                             <div class="form-group m-4">
+                                Password:<asp:TextBox ID="txtPassword"  runat="server" TextMode="Password"></asp:TextBox>
+                            </div>
+                            <div class="form-group m-4">
+                                First Name:<asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox>
+                            </div>
+                            <div class="form-group m-4">
+                                Last Name:<asp:TextBox ID="txtLastName" runat="server"></asp:TextBox>
+                            </div>
+                             <div class="form-group m-4">
+                                DOB:<asp:TextBox ID="txtDOB"  runat="server" TextMode="Date"></asp:TextBox>
+                            </div>
+                            <div class="form-group m-4">
+                                <asp:FileUpload ID="profileImage" runat="server" />
+                            </div>
+
+                            <asp:Button Text="Update Profile" CssClass="btn btn-primary" Height="50px" Width="200px" runat="server" id="updateProfile" OnClick="updateProfile_Click" />
                         
-                </div>
+                        </div>
+                     </div>
+                    
+            </div>
                
                 <footer class="footer bg-white shadow align-self-end py-3 px-xl-5 w-100 " style="text-align:end;margin-top:390px">
                     <div class="container-fluid">

@@ -52,10 +52,10 @@
                     <div class="container-fluid">
                         <div class="row">   
                             <div class="col-md-6 text-center text-md-left text-primary">
-                                <p class  ="mb-2 mb-md-0">Asad Mehmood &copy;2021</p>
+                                <p class  ="mb-2 mb-md-0">Group 41 &copy;2021</p>
                             </div>
                             <div class="col-md-6 text-center text-md-right text-gray-400">
-                                <p class="mb-0">Design by <a href="#">Asad Mehmood</a></p>
+                                <p class="mb-0">Design by <a href="#">Group 41</a></p>
 
                             </div>
                         </div>
