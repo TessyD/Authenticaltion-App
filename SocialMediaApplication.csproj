@@ -255,22 +255,13 @@
     <Content Include="Helper\vendor\popper.js\umd\popper.js" />
     <Content Include="Helper\vendor\popper.js\umd\popper.min.js" />
     <Content Include="illustration.svg" />
-    <Content Include="LandingPage.aspx" />
     <Content Include="LandingPage2.aspx" />
     <Content Include="LoginPage.aspx" />
     <Content Include="Signup.aspx" />
-    <Content Include="UpdateProfile.aspx" />
     <Content Include="UserImages\pic.JPG" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LandingPage.aspx.cs">
-      <DependentUpon>LandingPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LandingPage.aspx.designer.cs">
-      <DependentUpon>LandingPage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="LandingPage2.aspx.cs">
       <DependentUpon>LandingPage2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -292,13 +283,6 @@
     </Compile>
     <Compile Include="Signup.aspx.designer.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UpdateProfile.aspx.cs">
-      <DependentUpon>UpdateProfile.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UpdateProfile.aspx.designer.cs">
-      <DependentUpon>UpdateProfile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

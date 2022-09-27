@@ -16,7 +16,8 @@ namespace SocialMediaApplication
         protected void Page_Load(object sender, EventArgs e)
         {
             Label1.Text = "";
-
+            Session.Clear();
+            Session.RemoveAll();
         }
 
         protected void Unnamed4_Click(object sender, EventArgs e)
@@ -55,7 +56,7 @@ namespace SocialMediaApplication
             //your client secret  
             string clientsecret = "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";
             //your redirection url  
-            string redirection_url = "https://localhost:44323/LandingPage.aspx";
+            string redirection_url = "https://localhost:44323/LandingPage2.aspx";
             string url = "https://accounts.google.com/o/oauth2/v2/auth?scope=profile&include_granted_scopes=true&redirect_uri=" + redirection_url + "&response_type=code&client_id=" + clientid + "";
             Response.Redirect(url);
         }
